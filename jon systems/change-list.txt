@@ -1,0 +1,23 @@
+Jon Systems website change list
+
+Completed changes
+- [index.html] Added the shared site navigation and the EN/DE language switch.
+- [3dPrinting.html] Cleaned out the duplicated old page tail and added the language switch.
+- [cadDesign.html] Reworked the text to focus more on 3D printing workflows and added the language switch.
+- [consulting.html] Reworked the text to focus on technical consulting for company projects and added the language switch.
+- [contact.html] Added the language switch and removed the duplicated old page tail.
+- [repairs.html] Added the language switch and kept the Repairs section in the main navigation.
+- [programming.html] Added the language switch.
+- [impressum.html] Replaced the short page with a German legal notice and privacy summary based on the provided impressum.
+- [style.css] Added shared language-switch styling.
+- [data/navbar.css] Added shared language-switch styling for the navbar.
+- [script.js] Added the EN/DE toggle behavior and kept the existing reveal animation and mailto form support.
+- [index.html], [programming.html], [consulting.html], [contact.html], [repairs.html] Removed stock internet imagery and replaced it with text placeholders or site content.
+- [projects.html] Added a local-image project slideshow with short descriptions.
+- [index.html] Added a smaller auto-rotating completed-projects slideshow.
+- [repairs.html] Added workshop and vehicle-service imagery from the local image folder.
+
+Notes
+- The site copy no longer contains the duplicated old HTML tails or any AI-request wording in the page content.
+- The EN/DE button currently switches the saved language state and page language attribute; if you want full bilingual content, each page still needs German text.
+- The impressum page is now in German because that is the normal legal presentation for this site.

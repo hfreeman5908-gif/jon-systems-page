@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Jon Systems</title>
+    <link rel="icon" href="data/img/Jon%20Systems%20logo,%20minimalistisch,%20futuristisch%20(1).png" type="image/png" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="data/navbar.css" type="text/css">
+</head>
+
+<body>
+    <div data-site-navbar></div>
+
+    <header class="hero">
+        <div class="reveal">
+            <p class="eyebrow">Contact</p>
+            <h1>Start with a clear request.</h1>
+            <p class="lead">
+                Use the form below to describe the job, the deadline, and any details that matter. For repair or CAD
+                requests, photos are especially useful.
+            </p>
+            <div class="tag-list">
+                <span class="tag">info@jon-systems.com</span>
+                <!-- <span class="tag">+49 711 901 2723</span> -->
+                <span class="tag">Esslingen am Neckar</span>
+                <span class="tag">Heidelberg</span>
+                <span class="tag">Marnheim (Pfalz)</span>
+            </div>
+        </div>
+
+        <div class="hero-card panel reveal">
+            <div class="media">
+                <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1400&q=80" alt="Business contact scene with smartphone, notebook, and pen on desk" loading="lazy">
+            </div>
+            <div class="stats">
+                <div class="stat">
+                    <strong>Email</strong>
+                    <span>info@jon-systems.com</span>
+                </div>
+                <div class="stat">
+                    <strong>Location</strong>
+                    <span>Esslingen am Neckar, Heidelberg, Marnheim (Pfalz)</span>
+                </div>
+                <div class="stat">
+                    <strong>Country</strong>
+                    <span>Germany</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="page">
+        <section class="section contact-grid reveal">
+            <div class="card">
+                <p class="eyebrow">Direct contact</p>
+                <h2>Contact details</h2>
+                <div class="contact-list">
+                    <div class="contact-item">
+                        <strong>Email</strong>
+                        <a href="mailto:info@jon-systems.com">info@jon-systems.com</a>
+                    </div>
+                    <!-- <div class="contact-item">
+                        <strong>Phone</strong>
+                        <a href="tel:+497119012723">+49 711 901 2723</a>
+                    </div> -->
+                    <div class="contact-item">
+                        <strong>Response format</strong>
+                        <span>Clear answer, direct next step, and transparent scope.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <p class="eyebrow">Contact form</p>
+                <h2>Send a project request</h2>
+                <form class="form" data-mailto-form data-recipient="info@jon-systems.com">
+                    <div class="field-grid">
+                        <label>
+                            Name
+                            <input type="text" name="name" placeholder="Your name" required>
+                        </label>
+                        <label>
+                            Email
+                            <input type="email" name="email" placeholder="name@example.com" required>
+                        </label>
+                    </div>
+                    <div class="field-grid">
+                        <label>
+                            Phone
+                            <input type="tel" name="phone" placeholder="Optional">
+                        </label>
+                        <label>
+                            Topic
+                            <select name="service" required>
+                                <option value="" selected disabled>Select a topic</option>
+                                <option>CAD Design</option>
+                                <option>3D Printing</option>
+                                <option>Repairs</option>
+                                <option>Programming</option>
+                                <option>Consulting</option>
+                                <option>General inquiry</option>
+                            </select>
+                        </label>
+                    </div>
+                    <label>
+                        Subject
+                        <input type="text" name="subject" placeholder="What is the request about?" required>
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="message" placeholder="Describe the task, timeline, and any relevant details." required></textarea>
+                    </label>
+                    <button class="button primary" type="submit">Open email request</button>
+                    <p class="form-note">
+                        The form opens your email client with the details filled in. That keeps the site simple and
+                        avoids unnecessary tracking.
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        For repairs and CAD requests, photos and dimensions help speed up the first assessment.
+    </footer>
+
+    <script src="navbar.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

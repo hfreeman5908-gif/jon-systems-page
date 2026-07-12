@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+:root {
+    --background: #131516;
+    --transparent: rgba(0,0,0,0);
+}
+
+
+/* Stylesheet für CAD Design Abschnitt */
+.containerCAD {
+    display: grid;
+    grid-template-columns: 1fr 25%;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px; 
+}
+
+
+.cadText {
+    grid-area: 1 / 1 / span 2 / span 1;
+}
+
+.inventorLogo {
+    margin-top: -10px;
+    grid-area: 1 / 2 / span 1 / span 1;
+    width: 100%;
+    height: auto;
+
+    /* Hintergrund */
+    background: rgba(134, 133, 133, 0.387);
+    box-shadow: inset 0 0 5px 5px var(--background)
+}
+
+.inventorLogoSubtitle {
+    grid-area: 2 / 2 / span 1 / span 1;
+
+    
+}
