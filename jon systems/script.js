@@ -153,80 +153,80 @@
 
     function translateIndex(language) {
         localizeTitle('Jon Systems | CAD, 3D-Druck, Programmierung & Reparaturen', language);
-        localizeText('header.hero .reveal h1', 'Seriöse technische Arbeit mit sauberem, zuverlässigem Ergebnis.', language);
-        localizeText('header.hero .reveal .lead', 'Jon Systems unterstützt Privatkunden und kleine Unternehmen mit CAD, 3D-Druck, Programmierung, Beratung und Reparaturarbeiten. Jede Anfrage wird mit klarer Kommunikation, praktischer Planung und einem Ergebnis bearbeitet, das sich wirklich verwenden lässt.', language);
+        localizeText('header.hero .reveal h1', 'Sorgfältige technische Arbeit mit verlässlichem Ergebnis.', language);
+        localizeText('header.hero .reveal .lead', 'Jon Systems unterstützt Privatkunden und kleine Unternehmen mit CAD, 3D-Druck, Programmierung, Beratung und Reparaturen. Jede Anfrage wird klar besprochen, praktisch geplant und so umgesetzt, dass das Ergebnis auch wirklich nutzbar ist.', language);
         localizeText('header.hero .reveal .actions a[href="contact.html"]', 'Projekt anfragen', language);
         localizeText('header.hero .reveal .actions a[href="repairs.html"]', 'Reparaturen ansehen', language);
-        localizeAll('header.hero .reveal .tag-list .tag', ['Maßgefertigte Teile', 'Prototypen-Support', 'Technische Beratung', 'Reparaturen auf Anfrage'], language);
+        localizeAll('header.hero .reveal .tag-list .tag', ['Maßgefertigte Teile', 'Prototypenbegleitung', 'Technische Beratung', 'Reparaturen auf Anfrage'], language);
         localizeAll('.carousel--workshop .workshop-slide-text .eyebrow', ['3D-Druck', 'Reparaturen', 'CAD'], language);
-        localizeAll('.carousel--workshop .workshop-slide-text h2', ['Funktionales Druckbauteil', 'Fahrzeugservice und Reparatur', 'CAD-Vorbereitung für den Druck'], language);
-        localizeAll('.carousel--workshop .workshop-slide-text > p:last-of-type', ['Maßgefertigte Druckteile für Passform, Stabilität und praktischen Einsatz.', 'Werkstatterfahrung mit Inspektion und Servicearbeiten an Autos und Mopeds.', 'Konstruktionen werden für eine zuverlässige Fertigung und Überarbeitung vorbereitet.'], language);
+        localizeAll('.carousel--workshop .workshop-slide-text h2', ['Funktionales Druckteil', 'Fahrzeugservice und Reparatur', 'CAD-Vorbereitung für den Druck'], language);
+        localizeAll('.carousel--workshop .workshop-slide-text > p:last-of-type', ['Passgenaue Druckteile für Stabilität und den praktischen Einsatz.', 'Werkstatterfahrung mit Inspektion und Servicearbeiten an Autos und Mopeds.', 'Konstruktionen werden so vorbereitet, dass sie sich zuverlässig fertigen und weiterbearbeiten lassen.'], language);
         localizeText('.carousel--workshop .carousel-meta span:first-child', 'Werkstatt-Highlights', language);
         localizeText('header.hero .hero-card .actions a[href="projects.html"]', 'Projekte ansehen', language);
         localizeAll('header.hero .hero-card .stat strong', ['CAD', '3D-Druck', 'Reparaturen'], language);
-        localizeAll('header.hero .hero-card .stat span', ['Präzise Modelle und technische Zeichnungen', 'Vom Konzept zum funktionalen Teil', 'Praktische Bewertung und saubere Lösungen'], language);
+        localizeAll('header.hero .hero-card .stat span', ['Präzise Modelle und technische Zeichnungen', 'Vom Konzept bis zum funktionalen Teil', 'Praktische Einschätzung und saubere Lösungen'], language);
         localizeText('main .section > .section-header > div > .eyebrow', 'Leistungen', language);
-        localizeText('main .section > .section-header > div > h2', 'Alles ist auf ein klares Ergebnis ausgerichtet.', language);
-        localizeText('main .section > .section-header > p', 'Die Website ist auf die Arbeiten ausgerichtet, nach denen Kunden tatsächlich fragen: Konstruktion, Fertigung, Reparatur, Programmierung und praktische Beratung.', language);
+        localizeText('main .section > .section-header > div > h2', 'Alles zielt auf ein klares Ergebnis.', language);
+        localizeText('main .section > .section-header > p', 'Die Website konzentriert sich auf die Arbeiten, nach denen Kunden tatsächlich fragen: Konstruktion, Fertigung, Reparatur, Programmierung und praxisnahe Beratung.', language);
         localizeAll('.grid.cards.four .card h3', ['CAD-Design', '3D-Druck', 'Reparaturen', 'Programmierung'], language);
-        localizeAll('.grid.cards.four .card p', ['Saubere Modelle, technische Logik und Dateien für Druck, Bearbeitung oder Prüfung vorbereitet.', 'Schnelle Prototypen und Sonderteile mit Fokus auf Passform, Funktion und Oberfläche.', 'Analyse, Diagnose und Reparatur für alles, was sinnvoll instandgesetzt werden kann.', 'Automatisierung, Web-Tools, Embedded-Projekte und kleinere technische Softwareaufgaben.'], language);
-        localizeText('footer.footer', 'Jon Systems - Einzelunternehmensleistungen für Konstruktion, Prototyping, Reparatur und technische Unterstützung.', language);
+        localizeAll('.grid.cards.four .card p', ['Saubere Modelle, technische Logik und Dateien, die für Druck, Bearbeitung oder Prüfung vorbereitet sind.', 'Schnelle Prototypen und Sonderteile mit Blick auf Passform, Funktion und Oberfläche.', 'Analyse, Diagnose und Reparatur für alles, was sich sinnvoll instandsetzen lässt.', 'Automatisierung, Web-Tools, Embedded-Projekte und kleinere technische Softwareaufgaben.'], language);
+        localizeText('footer.footer', 'Jon Systems - Leistungen eines Einzelunternehmens für Konstruktion, Prototyping, Reparaturen und technische Unterstützung.', language);
     }
 
     function translate3dPrinting(language) {
         localizeTitle('3D-Druck - Jon Systems', language);
         localizeText('header.hero .reveal .eyebrow', 'Additive Fertigung', language);
-        localizeText('header.hero .reveal h1', '3D-Druck, der beim Bauteil anfängt und nicht bei der Maschine.', language);
-        localizeText('header.hero .reveal .lead', 'Von Einzelteilen bis zu funktionalen Prototypen liegt der Fokus auf korrekter Passform, klarer Funktion und einem Ergebnis, das in der Praxis funktioniert.', language);
+        localizeText('header.hero .reveal h1', '3D-Druck, der beim Bauteil ansetzt und nicht bei der Maschine.', language);
+        localizeText('header.hero .reveal .lead', 'Von Einzelteilen bis zu funktionalen Prototypen liegt der Fokus auf passender Form, klarer Funktion und einem Ergebnis, das im Alltag funktioniert.', language);
         localizeText('header.hero .reveal .actions a[href="contact.html"]', 'Druck anfragen', language);
         localizeText('header.hero .reveal .actions a[href="cadDesign.html"]', 'Zuerst ein Modell?', language);
         localizeAll('header.hero .hero-card .stat strong', ['Prototyp', 'Funktionsteil', 'Support'], language);
-        localizeAll('header.hero .hero-card .stat span', ['Schnelle Iteration und Testteile', 'Für den praktischen Einsatz gebaut', 'Bei Bedarf mit CAD-Hilfe'], language);
+        localizeAll('header.hero .hero-card .stat span', ['Schnelle Iterationen und Testteile', 'Für den praktischen Einsatz gebaut', 'Bei Bedarf mit CAD-Unterstützung'], language);
         localizeText('main .section .section-header .eyebrow', 'Ablauf', language);
         localizeText('main .section .section-header h2', 'Messen, modellieren, drucken, prüfen.', language);
-        localizeText('main .section > .section-header > p', 'Der Druckprozess ist zuverlässiger, wenn das Design vorher geprüft wird. Deshalb kann der Service bei Bedarf auch CAD-Unterstützung vor der Fertigung enthalten.', language);
+        localizeText('main .section > .section-header > p', 'Der Druckprozess wird zuverlässiger, wenn das Design vorher geprüft wird. Deshalb kann der Service bei Bedarf auch CAD-Unterstützung vor der Fertigung umfassen.', language);
         localizeAll('.grid.cards .card h3', ['Sonderteile', 'Prototypenteile', 'Design-Support'], language);
-        localizeAll('.grid.cards .card p', ['Ersatzclips, Halter, Abdeckungen und technische Bauteile.', 'Testobjekte und Überarbeitungen, bevor eine finale Version entsteht.', 'CAD-Aufbereitung für den Druck, wenn das bestehende Modell unvollständig oder ungeeignet ist.'], language);
-        localizeText('footer.footer', '3D-Druck ist am effektivsten, wenn er vor Produktionsbeginn an den konkreten Anwendungsfall angepasst wird.', language);
+        localizeAll('.grid.cards .card p', ['Ersatzclips, Halter, Abdeckungen und technische Bauteile.', 'Testobjekte und Überarbeitungen, bevor die finale Version entsteht.', 'CAD-Aufbereitung für den Druck, wenn das vorhandene Modell unvollständig oder ungeeignet ist.'], language);
+        localizeText('footer.footer', '3D-Druck ist am wirksamsten, wenn er vor Produktionsbeginn an den konkreten Anwendungsfall angepasst wird.', language);
     }
 
     function translateCadDesign(language) {
         localizeTitle('CAD-Design - Jon Systems', language);
         localizeText('header.hero .reveal .eyebrow', 'CAD-Arbeit', language);
-        localizeText('header.hero .reveal h1', 'CAD-Design mit klarem Ziel und nutzbarem Ergebnis.', language);
-        localizeText('header.hero .reveal .lead', 'CAD-Design unterstützt präzise Planung, schnelle Iteration und bessere Fertigungsergebnisse. Ob für den Druck, die Reparatur oder ein technisches Konzept: Das Modell sollte lesbar, robust und praktisch sein.', language);
+        localizeText('header.hero .reveal h1', 'CAD-Design mit klarem Ziel und einem Ergebnis, das sich nutzen lässt.', language);
+        localizeText('header.hero .reveal .lead', 'CAD-Design hilft bei präziser Planung, schnellen Anpassungen und besseren Fertigungsergebnissen. Ob für den Druck, die Reparatur oder ein technisches Konzept: Das Modell sollte verständlich, robust und alltagstauglich sein.', language);
         localizeText('header.hero .reveal .actions a[href="contact.html"]', 'CAD-Anfrage starten', language);
         localizeText('header.hero .reveal .actions a[href="repairs.html"]', 'Ersatzteile', language);
         localizeText('main .section .section-header .eyebrow', 'Konstruktionsziel', language);
         localizeText('main .section .section-header h2', 'Modelle für Druck, Reparatur oder Fertigung vorbereitet.', language);
-        localizeText('main .section > .section-header > p', 'Der CAD-Workflow ist bewusst einfach: Problem definieren, Geometrie erstellen, Passform prüfen und dann Dateien übergeben, die direkt nutzbar sind.', language);
+        localizeText('main .section > .section-header > p', 'Der CAD-Workflow ist bewusst einfach: Problem benennen, Geometrie erstellen, Passform prüfen und am Ende Dateien übergeben, die direkt nutzbar sind.', language);
         localizeText('.split .card:nth-of-type(1) h3', 'Was enthalten ist', language);
-        localizeAll('.split .card:nth-of-type(1) .list li', ['Bauteilmodellierung und Vorbereitung technischer Zeichnungen.', 'Überarbeitungen bestehender Teile und beschädigter Komponenten.', 'Geometrie für 3D-Druck oder Prüfung vorbereitet.', 'Klare Kommunikation zu Maßen und Einschränkungen.'], language);
+        localizeAll('.split .card:nth-of-type(1) .list li', ['Bauteile modellieren und technische Zeichnungen vorbereiten.', 'Bestehende Teile und beschädigte Komponenten überarbeiten.', 'Geometrie für 3D-Druck oder Prüfung aufbereiten.', 'Klare Kommunikation zu Maßen und Grenzen.'], language);
         localizeText('.split .card:nth-of-type(2) h3', 'Beispielreferenzen', language);
         localizeAll('.split .card:nth-of-type(2) .figure-caption', ['Lokales Software-Referenzbild.', 'Lokales technisches Modell als Referenz.'], language);
-        localizeText('footer.footer', 'CAD-Arbeit ist am stärksten, wenn sie von Anfang an für den finalen Fertigungsschritt ausgelegt ist.', language);
+        localizeText('footer.footer', 'CAD-Arbeit ist am stärksten, wenn sie von Anfang an auf den finalen Fertigungsschritt ausgelegt ist.', language);
     }
 
     function translateRepairs(language) {
         localizeTitle('Reparaturen - Jon Systems', language);
         localizeText('header.hero .reveal .eyebrow', 'Reparaturservice', language);
-        localizeText('header.hero .reveal h1', 'Reparaturen für die Dinge, auf die Sie wirklich angewiesen sind.', language);
-        localizeText('header.hero .reveal .lead', 'Jon Systems bietet Reparaturarbeiten auf Anfrage für technische Objekte, Gehäuse, Kleingeräte, defekte Komponenten und Sonderteile an. Jeder Fall wird sorgfältig geprüft und mit einer klaren Einschätzung beantwortet, was repariert, ersetzt oder verbessert werden kann.', language);
+        localizeText('header.hero .reveal h1', 'Reparaturen für die Dinge, auf die Sie sich wirklich verlassen.', language);
+        localizeText('header.hero .reveal .lead', 'Jon Systems bietet auf Anfrage Reparaturen für technische Gegenstände, Gehäuse, Kleingeräte, defekte Komponenten und Sonderteile an. Jeder Fall wird sorgfältig geprüft und mit einer klaren Einschätzung beantwortet, was sich reparieren, ersetzen oder verbessern lässt.', language);
         localizeText('header.hero .reveal .actions a[href="contact.html"]', 'Reparaturanfrage senden', language);
         localizeText('header.hero .reveal .actions a[href="cadDesign.html"]', 'Sonderersatzteile', language);
         localizeAll('header.hero .hero-card .stat strong', ['Prüfen', 'Reparieren', 'Ersetzen'], language);
-        localizeAll('header.hero .hero-card .stat span', ['Erste Prüfung und ehrliche Einschätzung', 'Teil, Gehäuse oder Funktion instandsetzen', 'Bei Bedarf fehlende Teile nachfertigen'], language);
+        localizeAll('header.hero .hero-card .stat span', ['Erste Prüfung und ehrliche Einschätzung', 'Teil, Gehäuse oder Funktion wieder instand setzen', 'Fehlende Teile bei Bedarf nachfertigen'], language);
         localizeText('main .section.reveal .section-header .eyebrow', 'Was repariert wird', language);
-        localizeText('main .section.reveal .section-header h2', 'Breite Anfragen, praktische Ergebnisse.', language);
-        localizeText('main .section.reveal > .section-header > p', 'Senden Sie die Details, auch wenn der Fall ungewöhnlich ist. Wenn eine Reparatur sinnvoll möglich ist, sage ich das. Wenn Ersatz oder eine Neuentwicklung mehr Sinn ergibt, empfehle ich das stattdessen.', language);
+        localizeText('main .section.reveal .section-header h2', 'Viele Anfragen, praktische Ergebnisse.', language);
+        localizeText('main .section.reveal > .section-header > p', 'Senden Sie die Details, auch wenn der Fall ungewöhnlich ist. Wenn eine Reparatur sinnvoll möglich ist, sage ich das offen. Wenn Ersatz oder eine Neuentwicklung mehr Sinn ergibt, empfehle ich das stattdessen.', language);
         localizeAll('.grid.cards.four .card h3', ['Elektronik', 'Mechanische Teile', '3D-gedruckte Teile', 'Sonderlösungen'], language);
         localizeAll('.grid.cards.four .card p', ['Geräte, Steckverbinder, kleine Platinen, Leitungsprobleme und zerstörungsfreie Fehlersuche.', 'Defekte Abdeckungen, Halter, Aufnahmen, Befestigungen und kleine Funktionsteile.', 'Ersatzdrucke, stärkere Überarbeitungen und Teile mit besserer Passform oder Oberfläche.', 'Wenn es keinen direkten Ersatz gibt, kann ein neues Teil oder eine Neukonstruktion die Lücke schließen.'], language);
         localizeText('.split .card:nth-of-type(1) .eyebrow', 'Reparaturablauf', language);
-        localizeText('.split .card:nth-of-type(1) h2', 'So wird der Auftrag bearbeitet.', language);
+        localizeText('.split .card:nth-of-type(1) h2', 'So läuft der Auftrag ab.', language);
         localizeAll('.split .card:nth-of-type(1) .list li', ['Problem beschreiben und wenn möglich Fotos beifügen.', 'Erste Prüfung auf Machbarkeit, Aufwand und Risiko.', 'Reparatur, Ersatz oder Neuentwicklung je nach Fall.', 'Rückgabe mit klarer Erklärung des Ergebnisses.'], language);
         localizeText('.split .card:nth-of-type(2) .eyebrow', 'Fahrzeuge', language);
         localizeText('.split .card:nth-of-type(2) h2', 'Autos, Mopeds und praktische Servicearbeiten.', language);
-        localizeText('.split .card:nth-of-type(2) > p:last-of-type', 'Die Erfahrung umfasst die Reparatur und Wartung von Fahrzeugen wie Autos und Mopeds, weitere Werkstattbilder folgen später.', language);
+        localizeText('.split .card:nth-of-type(2) > p:last-of-type', 'Die Erfahrung umfasst Reparatur und Wartung von Fahrzeugen wie Autos und Mopeds. Weitere Werkstattbilder folgen später.', language);
         localizeText('main .section:nth-of-type(3) .section-header .eyebrow', 'Werkstattbilder', language);
         localizeText('main .section:nth-of-type(3) .section-header h2', 'Aktuelle Reparatur- und Servicefotos.', language);
         localizeText('main .section:nth-of-type(3) > .section-header > p', 'Die Werkstatt bekommt später weitere Bilder. Diese zeigen vorerst Reparaturen und praktische Servicearbeiten.', language);
@@ -238,7 +238,7 @@
         localizeTitle('Projekte - Jon Systems', language);
         localizeText('main .section .section-header .eyebrow', 'Projekte', language);
         localizeText('main .section .section-header h2', 'Abgeschlossene Arbeiten im Wechsel.', language);
-        localizeText('main .section > .section-header > p', 'Eine kleine Slideshow mit ausgewählten CAD-, 3D-Druck-, Reparatur- und Installationsarbeiten. Weitere Bilder können später ergänzt werden, wenn das Projektarchiv wächst.', language);
+        localizeText('main .section > .section-header > p', 'Eine kleine Slideshow mit ausgewählten CAD-, 3D-Druck-, Reparatur- und Installationsarbeiten.', language);
         const localizeProjectSlide = (slideIndex, title, firstParagraph, secondParagraph) => {
             const slideSelector = `.carousel--projects .carousel-slide:nth-of-type(${slideIndex}) .project-slide-text`;
 
@@ -247,35 +247,35 @@
             localizeText(`${slideSelector} p:last-of-type`, secondParagraph, language);
         };
 
-        localizeProjectSlide(1, 'CAD-Entwurf eines Flügels für eine Windturbine', 'Entwicklung eines Windradflügels mit sinnvoller Aerodynamik und stabiler Konstruktion.', 'Dabei geht es darum, die Druckparameter so abzustimmen, dass am Ende ein gutes Ergebnis herauskommt.');
-        localizeProjectSlide(2, 'Bewertung für den 3D-Druck', 'Druckparameter so abstimmen, dass am Ende ein gutes Ergebnis herauskommt.', 'Mehrere Iterationen zeigen, welche Form die Festigkeit und die Montage im Alltag verbessert.');
-        localizeProjectSlide(3, '3D-gedruckte Baugruppe', 'Individuell konstruierte und gedruckte Teile für eine optische Baugruppe.', 'Mit passenden Druckeinstellungen und Nacharbeit bleibt das Ergebnis dauerhaft maßhaltig.');
+        localizeProjectSlide(1, 'CAD-Entwurf eines Rotorblatts für ein Windrad', 'Auslegung eines Rotorblatts mit guter Aerodynamik und stabiler Struktur.', 'Der Schwerpunkt liegt auf sauberen Maßen, praxisgerechten Wandstärken und zügigen Überarbeitungen.');
+        localizeProjectSlide(2, '3D-Druck-Analyse', 'Druckparameter für bessere Ergebnisse abstimmen.', 'Mehrere Iterationen zeigen, welche Form die Festigkeit und Montage im Einsatz verbessert.');
+        localizeProjectSlide(3, '3D-gedruckte Baugruppe', 'Individuell konstruierte und gedruckte Teile für eine optische Baugruppe.', 'Mit passenden Druckeinstellungen und Nacharbeit bleibt das Teil dauerhaft maßhaltig.');
         localizeProjectSlide(4, 'Fahrzeug-Service', 'Ein Zahnriemenwechsel am Passat.', 'Dazu kommen Wartungs- und Prüfarbeiten an Autos und Mopeds.');
         localizeProjectSlide(5, 'Solaranlage in Frankreich', 'Solarmontage auf einem Trapezdach in Frankreich.', 'Wichtig ist eine stabile Ausführung, die sicher zum vorhandenen Dach passt.');
         localizeText('.carousel--projects .carousel-meta span:first-child', 'Projekt-Slideshow', language);
         localizeText('.split .card:nth-of-type(1) .eyebrow', 'Erfolgreiche Projekte', language);
         localizeText('.split .card:nth-of-type(1) h2', 'Ein Blick auf aktuelle Arbeiten', language);
-        localizeText('.split .card:nth-of-type(1) > p:last-of-type', 'Jon Systems hat bereits viele Projekte umgesetzt, darunter CAD-Design, 3D-Druck, Reparaturen und Installationen. Jedes Projekt wird mit Blick auf Genauigkeit, Praxistauglichkeit und klare Abstimmung bearbeitet.', language);
+        localizeText('.split .card:nth-of-type(1) > p:last-of-type', 'Jon Systems hat bereits viele Projekte umgesetzt, darunter CAD-Design, 3D-Druck, Reparaturen und Installationen. Jedes Projekt wird mit Blick auf Genauigkeit, Alltagstauglichkeit und klare Abstimmung bearbeitet.', language);
         localizeText('.split .card:nth-of-type(2) .eyebrow', 'Weitere Ergänzungen', language);
         localizeText('.split .card:nth-of-type(2) h2', 'Projekte werden laufend ergänzt.', language);
         localizeText('.split .card:nth-of-type(2) > p:last-of-type', 'Die Projekt-Slideshow wächst, sobald neue Arbeiten fertig sind. Dazu gehören CAD-, 3D-Druck-, Reparatur- und Installationsarbeiten.', language);
-        localizeText('footer.footer', 'Projekte werden als einfache Slideshow gezeigt, damit neue Arbeiten nach und nach ergänzt werden können.', language);
+        // localizeText('footer.footer', 'Projekte werden als einfache Slideshow gezeigt, damit neue Arbeiten nach und nach ergänzt werden können.', language);
     }
 
     function translateProgramming(language) {
         localizeTitle('Programmierung - Jon Systems', language);
         localizeText('header.hero .reveal .eyebrow', 'Softwarearbeit', language);
-        localizeText('header.hero .reveal h1', 'Programmierung, die eine reale Aufgabe löst.', language);
-        localizeAll('header.hero .reveal .lead', ['Kleine technische Softwareprojekte, Automatisierung, Webseiten, Embedded-Skripte und individuelle Werkzeuge sind leichter umzusetzen, wenn sie von Anfang an sauber aufgebaut werden.', 'Ich habe Erfahrung mit Python, C++ und anderen Sprachen und helfe bei kleinen Codeaufgaben mit einer praktischen Lösung.'], language);
+        localizeText('header.hero .reveal h1', 'Programmierung, die ein echtes Problem löst.', language);
+        localizeAll('header.hero .reveal .lead', ['Kleine technische Softwareprojekte, Automatisierung, Webseiten, Embedded-Skripte und individuelle Werkzeuge lassen sich leichter umsetzen, wenn sie von Anfang an sauber aufgebaut sind.', 'Ich habe Erfahrung mit Python, C++ und anderen Sprachen und helfe bei kleineren Codeaufgaben mit einer praktischen Lösung.'], language);
         localizeText('header.hero .reveal .actions a[href="contact.html"]', 'Über ein Projekt sprechen', language);
         localizeText('header.hero .reveal .actions a[href="consulting.html"]', 'Umfang besprechen', language);
         localizeAll('header.hero .hero-card .stat strong', ['Web', 'Automatisierung', 'Embedded'], language);
-        localizeAll('header.hero .hero-card .stat span', ['Geschäftsseiten und Aktualisierungen', 'Werkzeuge, die Handarbeit sparen', 'Praktische Skripte und Geräte'], language);
+        localizeAll('header.hero .hero-card .stat span', ['Webseiten und laufende Aktualisierungen', 'Werkzeuge, die Handarbeit sparen', 'Praktische Skripte und Geräte'], language);
         localizeText('main .section .section-header .eyebrow', 'Fähigkeiten', language);
-        localizeText('main .section .section-header h2', 'Kleine Programmieraufgaben, sauber erledigt.', language);
-        localizeText('main .section > .section-header > p', 'Jon Systems kann bei kleinen Programmieraufgaben innerhalb Ihres Projekts helfen.', language);
-        localizeAll('.grid.cards .card h3', ['Kleine Anfragen', 'Daten', 'Embedded-Arbeit'], language);
-        localizeAll('.grid.cards .card p', ['Statische Seiten und Service-Websites mit klarer Struktur und lesbarem Code.', 'Datenverarbeitung und kleine Werkzeuge, die manuelle Arbeit reduzieren.', 'Arduino, Raspberry Pi und ähnliche Projekte, bei denen Hardware und Software zusammenkommen.'], language);
+        localizeText('main .section .section-header h2', 'Kleine Programmieraufgaben sauber erledigt.', language);
+        localizeText('main .section > .section-header > p', 'Jon Systems kann bei kleineren Programmieraufgaben innerhalb Ihres Projekts helfen.', language);
+        localizeAll('.grid.cards .card h3', ['Kleine Anfragen', 'Daten', 'Embedded-Systems'], language);
+        localizeAll('.grid.cards .card p', ['Statische Seiten und Service-Websites mit klarer Struktur und gut lesbarem Code.', 'Datenverarbeitung und kleine Werkzeuge, die manuelle Arbeit reduzieren.', 'Arduino, Raspberry Pi und ähnliche Projekte, bei denen Hardware und Software zusammenkommen.'], language);
         localizeText('footer.footer', 'Programmierungsaufträge werden so abgegrenzt, dass sie nützlich, wartbar und realistisch supportbar bleiben.', language);
     }
 
@@ -283,7 +283,7 @@
         localizeTitle('Beratung - Jon Systems', language);
         localizeText('header.hero .reveal .eyebrow', 'Technische Beratung', language);
         localizeText('header.hero .reveal h1', 'Projektberatung für Unternehmen und technische Teams.', language);
-        localizeText('header.hero .reveal .lead', 'Unternehmen können Jon Systems beauftragen, um ein Projekt mit technischem Wissen, praxisnaher Problemlösung und klaren Entscheidungen zu unterstützen, damit die Entwicklung vorankommt.', language);
+        localizeText('header.hero .reveal .lead', 'Unternehmen können Jon Systems beauftragen, um ein Projekt mit technischem Wissen, praxisnaher Problemlösung und klaren Entscheidungen zu unterstützen, damit es zügig vorankommt.', language);
         localizeText('header.hero .reveal .actions a[href="contact.html"]', 'Beratungsanfrage starten', language);
         localizeText('header.hero .reveal .actions a[href="cadDesign.html"]', 'CAD- und Prototypen-Support', language);
         localizeText('header.hero .hero-card .media .mediaText .eyebrow', 'Projektunterstützung', language);
@@ -296,25 +296,25 @@
         localizeAll('.split .card:nth-of-type(1) .list li', ['Projektplanung und Klärung des Umfangs.', 'Technische Bewertung von Teilen, Prozessen oder Prototypen.', 'Ob Reparatur, Neuentwicklung oder ein neuer Aufbau sinnvoller ist.', 'Unterstützung für Unternehmen, die eine externe technische Perspektive brauchen.'], language);
         localizeText('.split .card:nth-of-type(2) .eyebrow', 'Ergebnis', language);
         localizeText('.split .card:nth-of-type(2) h2', 'Weniger Unsicherheit, mehr Richtung.', language);
-        localizeText('.split .card:nth-of-type(2) > p:last-of-type', 'Das Ziel ist keine allgemeine Beratung. Es ist eine klare Empfehlung, die ohne unnötigen Zeitverlust umgesetzt werden kann.', language);
-        localizeText('footer.footer', 'Beratung wird praxisnah gehalten, damit der nächste Schritt offensichtlich ist.', language);
+        localizeText('.split .card:nth-of-type(2) > p:last-of-type', 'Das Ziel ist keine allgemeine Beratung, sondern eine klare Empfehlung, die sich ohne unnötigen Zeitverlust umsetzen lässt.', language);
+        localizeText('footer.footer', 'Beratung bleibt praxisnah, damit der nächste Schritt klar ist.', language);
     }
 
     function translateContact(language) {
         localizeTitle('Kontakt - Jon Systems', language);
         localizeText('header.hero .reveal .eyebrow', 'Kontakt', language);
-        localizeText('header.hero .reveal h1', 'Mit einer klaren Anfrage beginnen.', language);
-        localizeText('header.hero .reveal .lead', 'Nutzen Sie das Formular, um die Aufgabe, die Frist und wichtige Details zu beschreiben. Bei Reparatur- oder CAD-Anfragen sind Fotos besonders hilfreich.', language);
-        localizeAll('header.hero .reveal .tag-list .tag', ['info@jon-systems.com', '+49 711 901 2723', 'Esslingen am Neckar'], language);
+        localizeText('header.hero .reveal h1', 'Starten Sie mit einer klaren Anfrage.', language);
+        localizeText('header.hero .reveal .lead', 'Beschreiben Sie im Formular Ihr Anliegen, den Zeitrahmen und die wichtigsten Details. Fotos sind bei Reparatur- oder CAD-Anfragen besonders hilfreich.', language);
+        localizeAll('header.hero .reveal .tag-list .tag', ['info@jon-systems.com', 'Esslingen am Neckar', 'Heidelberg', 'Marnheim (Pfalz)'], language);
         localizeText('header.hero .hero-card .media .mediaText .eyebrow', 'Direkter Kontakt', language);
         localizeText('header.hero .hero-card .media .mediaText h2', 'Anfrage senden und ich kümmere mich darum.', language);
         localizeText('header.hero .hero-card .media .mediaText p', 'Projekt- oder Werkstattbilder können bei Bedarf später ergänzt werden.', language);
-        localizeAll('header.hero .hero-card .stat strong', ['E-Mail', 'Telefon', 'Ort'], language);
-        localizeAll('header.hero .hero-card .stat span', ['info@jon-systems.com', '+49 711 901 2723', 'Esslingen am Neckar, Deutschland'], language);
+        localizeAll('header.hero .hero-card .stat strong', ['E-Mail', 'Ort', 'Land'], language);
+        localizeAll('header.hero .hero-card .stat span', ['info@jon-systems.com', 'Esslingen am Neckar, Heidelberg, Marnheim (Pfalz)', 'Deutschland'], language);
         localizeText('main .contact-grid .card:nth-of-type(1) .eyebrow', 'Direkter Kontakt', language);
-        localizeText('main .contact-grid .card:nth-of-type(1) h2', 'Kontaktdaten', language);
-        localizeAll('main .contact-grid .card:nth-of-type(1) .contact-item strong', ['E-Mail', 'Telefon', 'Antwortformat'], language);
-        localizeAll('main .contact-grid .card:nth-of-type(1) .contact-item span', ['Klare Antwort, direkter nächster Schritt und transparente Einschätzung des Umfangs.'], language);
+        localizeText('main .contact-grid .card:nth-of-type(1) h2', 'Kontakt auf einen Blick', language);
+        localizeAll('main .contact-grid .card:nth-of-type(1) .contact-item strong', ['E-Mail', 'Antwortformat'], language);
+        localizeAll('main .contact-grid .card:nth-of-type(1) .contact-item span', ['Klare Antwort, konkreter nächster Schritt und transparenter Umfang.'], language);
         localizeText('main .contact-grid .card:nth-of-type(2) .eyebrow', 'Kontaktformular', language);
         localizeText('main .contact-grid .card:nth-of-type(2) h2', 'Projektanfrage senden', language);
         localizeLabelAll('main .contact-grid .card:nth-of-type(2) label', ['Name', 'E-Mail', 'Telefon', 'Thema', 'Betreff', 'Nachricht'], language);
@@ -324,16 +324,16 @@
         localizeAttr('main .contact-grid .card:nth-of-type(2) input[name="subject"]', 'placeholder', 'Worum geht es bei der Anfrage?', language);
         localizeAttr('main .contact-grid .card:nth-of-type(2) textarea[name="message"]', 'placeholder', 'Beschreiben Sie die Aufgabe, den Zeitrahmen und relevante Details.', language);
         localizeAll('main .contact-grid .card:nth-of-type(2) select[name="service"] option', ['Thema wählen', 'CAD-Design', '3D-Druck', 'Reparaturen', 'Programmierung', 'Beratung', 'Allgemeine Anfrage'], language);
-        localizeText('main .contact-grid .card:nth-of-type(2) button[type="submit"]', 'E-Mail-Anfrage öffnen', language);
-        localizeText('main .contact-grid .card:nth-of-type(2) .form-note', 'Das Formular öffnet Ihr E-Mail-Programm mit den eingetragenen Daten. So bleibt die Seite einfach und vermeidet unnötiges Tracking.', language);
-        localizeText('footer.footer', 'Bei Reparatur- und CAD-Anfragen helfen Fotos und Maße, die erste Einschätzung zu beschleunigen.', language);
+        localizeText('main .contact-grid .card:nth-of-type(2) button[type="submit"]', 'E-Mail vorbereiten', language);
+        localizeText('main .contact-grid .card:nth-of-type(2) .form-note', 'Das Formular öffnet Ihr E-Mail-Programm mit den eingetragenen Daten. So bleibt die Seite schlank und es wird nichts unnötig getrackt.', language);
+        localizeText('footer.footer', 'Fotos und Maße helfen, die erste Einschätzung bei Reparatur- und CAD-Anfragen zu beschleunigen.', language);
     }
 
     function translateImpressum(language) {
         localizeTitle('Impressum - Jon Systems', language);
         localizeText('.section-header .eyebrow', 'Impressum', language);
         localizeText('.section-header h2', 'Impressum', language);
-        localizeText('.section-header p', 'Diese Seite enthält das Impressum, die Kontaktdaten, die EU-Streitbeilegung und die Datenschutzerklärung an einem klaren Ort.', language);
+        localizeText('.section-header p', 'Diese Seite bündelt das Impressum, die Kontaktdaten, die EU-Streitbeilegung und die Datenschutzerklärung an einem Ort.', language);
         localizeText('.split .card:nth-of-type(1) h3', 'Verantwortlich', language);
         localizeText('.split .card:nth-of-type(2) h3', 'Kontakt', language);
         localizeText('.section .card:nth-of-type(3) h3', 'EU-Streitschlichtung', language);
