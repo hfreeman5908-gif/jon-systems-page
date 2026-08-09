@@ -1,145 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jon Systems | CAD, 3D Printing, Programming & Repairs</title>
-    <link rel="icon" href="data/img/Jon%20Systems%20logo,%20minimalistisch,%20futuristisch%20(1).png" type="image/png" />
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="data/navbar.css" type="text/css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jon Systems — CAD, Fertigung & Reparatur</title>
+<link rel="icon" href="data/img/Jon%20Systems%20logo%2C%20minimalistisch%2C%20futuristisch%20(1).png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="site.css">
 </head>
+<body data-page="home">
 
-<body>
-    <div data-site-navbar></div>
+  <a class="nav-logo" href="index.html">
+    <span class="mark">JS</span>
+    Jon Systems
+  </a>
 
-    <header class="hero">
-        <div class="reveal">
-            <p class="eyebrow">Jon Systems</p>
-            <h1>Serious technical work with a clean, reliable finish.</h1>
-            <p class="lead">
-                Jon Systems supports private clients and small businesses with CAD, 3D printing, programming,
-                consulting, and repair work. Every request is handled with clear communication, practical planning,
-                and a result you can actually use.
-            </p>
-            <div class="actions">
-                <a class="button primary" href="contact.html">Request a project</a>
-                <a class="button secondary" href="repairs.html">See repairs</a>
-            </div>
-            <div class="tag-list">
-                <span class="tag">Custom parts</span>
-                <span class="tag">Prototype support</span>
-                <span class="tag">Technical consulting</span>
-                <span class="tag">Repairs on request</span>
-            </div>
+  <div class="navstage">
+    <div class="navstack">
+      <div class="layer layer-blue"></div>
+      <div class="layer layer-white"></div>
+      <nav class="navbar">
+        <a class="nav-link" href="index.html" data-page="home">
+          <svg viewBox="0 0 24 24"><path d="M4 11.5 12 4l8 7.5"/><path d="M6 10v9a1 1 0 0 0 1 1h4v-6h2v6h4a1 1 0 0 0 1-1v-9"/></svg>
+          <span class="label">Home</span>
+        </a>
+        <a class="nav-link" href="cadDesign.html" data-page="cad">
+          <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 9h16M9 4v16"/></svg>
+          <span class="label">CAD</span>
+        </a>
+        <a class="nav-link" href="3dPrinting.html" data-page="printing">
+          <svg viewBox="0 0 24 24"><path d="M12 2v20M4 8l8-4 8 4M4 8v8l8 4 8-4V8M4 8l8 4 8-4"/></svg>
+          <span class="label">3D-Druck</span>
+        </a>
+        <a class="nav-link" href="repairs.html" data-page="repairs">
+          <svg viewBox="0 0 24 24"><path d="M14.7 6.3a3 3 0 1 0-4.2 4.2L4 17l3 3 6.5-6.5a3 3 0 1 0 4.2-4.2l-1.5-1.5-1.5 1.5z"/></svg>
+          <span class="label">Reparatur</span>
+        </a>
+        <a class="nav-link" href="programming.html" data-page="programming">
+          <svg viewBox="0 0 24 24"><path d="m9 8-4 4 4 4M15 8l4 4-4 4"/></svg>
+          <span class="label">Code</span>
+        </a>
+        <a class="nav-link" href="consulting.html" data-page="consulting">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>
+          <span class="label">Beratung</span>
+        </a>
+        <a class="nav-link" href="projects.html" data-page="projects">
+          <svg viewBox="0 0 24 24"><rect x="3" y="4" width="7" height="7" rx="1"/><rect x="14" y="4" width="7" height="7" rx="1"/><rect x="3" y="13" width="7" height="7" rx="1"/><rect x="14" y="13" width="7" height="7" rx="1"/></svg>
+          <span class="label">Projekte</span>
+        </a>
+        <a class="nav-cta-orb" href="contact.html" data-tip="Kontakt">
+          <svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <header class="wrap hero">
+    <span class="eyebrow glass pop">CAD · Fertigung · Reparatur</span>
+    <h1>Präzision, die man anfassen kann.</h1>
+    <p class="lead">
+      Jon Systems entwirft, druckt und repariert technische Teile —
+      sauber konstruiert, funktional getestet, ohne Umwege.
+    </p>
+    <div class="actions">
+      <a class="button primary" href="contact.html">Projekt anfragen</a>
+      <a class="button secondary glass pop" href="projects.html">Arbeiten ansehen</a>
+    </div>
+
+    <div class="hero-panel glass pop reveal">
+      <div class="hero-panel-inner">
+        <img src="data/img/IMG_4523.jpeg" alt="Individuell gedrucktes 3D-Bauteil von Jon Systems">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap section" id="services">
+      <div class="section-head">
+        <span class="kicker">Leistungen</span>
+        <h2>Vier Wege, ein Ergebnis.</h2>
+        <p>Die Website ist um die Arbeit organisiert, die Kunden tatsächlich brauchen: Design, Fertigung, Reparatur und praktische Beratung.</p>
+      </div>
+      <div class="grid cols-3">
+        <div class="card glass pop reveal">
+          <div class="icon">01</div>
+          <h3>CAD Design</h3>
+          <p>Saubere Modelle und technische Logik, vorbereitet für Druck, Bearbeitung oder Prüfung.</p>
+          <a class="card-link" href="cadDesign.html">Mehr erfahren →</a>
         </div>
-
-        <div class="hero-card panel reveal">
-            <div class="carousel carousel--workshop panel" data-carousel data-carousel-interval="3600">
-                <div class="carousel-track">
-                    <article class="carousel-slide">
-                        <div class="workshop-slide">
-                            <div class="workshop-slide-image">
-                                <img src="data/img/IMG_4523.jpeg" alt="3D printed assembly with two joined sections" loading="lazy">
-                            </div>
-                            <div class="workshop-slide-text">
-                                <p class="eyebrow">3D Printing</p>
-                                <h2>Functional printed assembly</h2>
-                                <p>Custom printed parts produced for fit, structure, and practical use.</p>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="carousel-slide">
-                        <div class="workshop-slide">
-                            <div class="workshop-slide-image">
-                                <img src="data/img/IMG_5173.jpeg" alt="Vehicle engine bay during repair and servicing work" loading="lazy">
-                            </div>
-                            <div class="workshop-slide-text">
-                                <p class="eyebrow">Repairs</p>
-                                <h2>Vehicle service and repair</h2>
-                                <p>Workshop experience includes inspection and servicing work on cars and mopeds.</p>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="carousel-slide">
-                        <div class="workshop-slide">
-                            <div class="workshop-slide-image">
-                                <img src="data/img/CAD-Design.png" alt="CAD model prepared for a print-ready technical part" loading="lazy">
-                            </div>
-                            <div class="workshop-slide-text">
-                                <p class="eyebrow">CAD</p>
-                                <h2>Print-ready CAD preparation</h2>
-                                <p>Design work is prepared for reliable manufacturing and iteration.</p>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="carousel-meta">
-                    <span>Workshop highlights</span>
-                    <span data-carousel-position></span>
-                </div>
-            </div>
-            <div class="actions">
-                <a class="button secondary" href="projects.html">View projects</a>
-            </div>
-            <div class="stats">
-                <div class="stat">
-                    <strong>CAD</strong>
-                    <span>Precise models and technical drawings</span>
-                </div>
-                <div class="stat">
-                    <strong>3D Printing</strong>
-                    <span>From concept to functional part</span>
-                </div>
-                <div class="stat">
-                    <strong>Repairs</strong>
-                    <span>Practical assessment and clean fixes</span>
-                </div>
-            </div>
+        <div class="card glass pop reveal">
+          <div class="icon">02</div>
+          <h3>3D-Druck</h3>
+          <p>Schnelle Prototypen und individuelle Teile mit Fokus auf Passform, Funktion und Finish.</p>
+          <a class="card-link" href="3dPrinting.html">Mehr erfahren →</a>
         </div>
-    </header>
+        <div class="card glass pop reveal">
+          <div class="icon">03</div>
+          <h3>Reparatur</h3>
+          <p>Bewertung, Diagnose und Instandsetzung für alles, was sich sinnvoll retten lässt.</p>
+          <a class="card-link" href="repairs.html">Mehr erfahren →</a>
+        </div>
+        <div class="card glass pop reveal">
+          <div class="icon">04</div>
+          <h3>Programmierung</h3>
+          <p>Automatisierung, Web-Tools, Embedded-Projekte und kleine technische Softwarejobs.</p>
+          <a class="card-link" href="programming.html">Mehr erfahren →</a>
+        </div>
+        <div class="card glass pop reveal">
+          <div class="icon">05</div>
+          <h3>Beratung</h3>
+          <p>Weniger Unsicherheit, mehr Richtung — eine klare Empfehlung statt generischer Ratschläge.</p>
+          <a class="card-link" href="consulting.html">Mehr erfahren →</a>
+        </div>
+        <div class="card glass pop reveal">
+          <div class="icon">06</div>
+          <h3>Projekte</h3>
+          <p>Eine Auswahl abgeschlossener Arbeiten aus CAD, Druck, Reparatur und Installation.</p>
+          <a class="card-link" href="projects.html">Mehr erfahren →</a>
+        </div>
+      </div>
+    </section>
 
-    <main class="page">
-        <section class="section reveal">
-            <div class="section-header">
-                <div>
-                    <p class="eyebrow">Services</p>
-                    <h2>Everything is built around a clear outcome.</h2>
-                </div>
-                <p>
-                    The website is organized around the work clients actually ask for: design, fabrication, repair,
-                    programming, and practical consulting.
-                </p>
-            </div>
+    <section class="wrap section" id="work">
+      <div class="section-head">
+        <span class="kicker">Ausgewählt</span>
+        <h2>Ein Blick in die Arbeit.</h2>
+      </div>
+      <div class="feature glass pop reveal">
+        <div class="feature-media">
+          <img src="data/img/CAD-Design.png" alt="CAD-Modell einer Windturbinen-Schaufel">
+        </div>
+        <div class="feature-text">
+          <span class="tag">Projekt</span>
+          <h3>CAD-Design einer Windturbinen-Schaufel</h3>
+          <p>Entwicklung einer Rotorschaufel mit optimierten aerodynamischen Eigenschaften und struktureller Stabilität — sauber dimensioniert, praxisnah umgesetzt.</p>
+          <a class="button secondary" href="projects.html">Alle Projekte ansehen</a>
+        </div>
+      </div>
+    </section>
 
-            <div class="grid cards four">
-                <article class="card">
-                    <h3>CAD Design</h3>
-                    <p>Clean models, technical logic, and files prepared for printing, machining, or review.</p>
-                </article>
-                <article class="card">
-                    <h3>3D Printing</h3>
-                    <p>Fast prototypes and custom parts with a focus on fit, function, and finish.</p>
-                </article>
-                <article class="card">
-                    <h3>Repairs</h3>
-                    <p>Assessment, diagnosis, and repair work for whatever can be restored sensibly.</p>
-                </article>
-                <article class="card">
-                    <h3>Programming</h3>
-                    <p>Automation, web tools, embedded projects, and small technical software jobs.</p>
-                </article>
-            </div>
-        </section>
-    </main>
+    <section class="wrap section" id="contact">
+      <div class="cta-panel glass pop reveal">
+        <h2>Bereit für ein Projekt?</h2>
+        <p>Kurze Nachricht genügt — Skizze, Foto oder ein paar Sätze zur Idee reichen für den ersten Schritt.</p>
+        <div class="actions">
+          <a class="button primary" href="contact.html">Kontakt aufnehmen</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <footer class="footer">
-        Jon Systems - individual business services for design, prototyping, repair, and technical support.
-    </footer>
+  <footer class="wrap footer">
+    <span>© 2026 Jon Systems</span>
+    <span><a href="impressum.html">Impressum</a></span>
+  </footer>
 
-    <script src="navbar.js"></script>
-    <script src="script.js"></script>
+  <script src="site.js"></script>
 </body>
-
 </html>
