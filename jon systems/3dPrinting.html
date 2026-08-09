@@ -1,90 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Printing - Jon Systems</title>
-    <link rel="icon" href="data/img/Jon%20Systems%20logo,%20minimalistisch,%20futuristisch%20(1).png" type="image/png" />
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="data/navbar.css" type="text/css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3D-Druck — Jon Systems</title>
+<link rel="icon" href="data/img/Jon%20Systems%20logo%2C%20minimalistisch%2C%20futuristisch%20(1).png" type="image/png">
+<link rel="stylesheet" href="site.css">
 </head>
+<body data-page="printing">
 
-<body>
-    <div data-site-navbar></div>
+  <a class="nav-logo" href="index.html">
+    <span class="mark">JS</span>
+    Jon Systems
+  </a>
 
-    <header class="hero">
-        <div class="reveal">
-            <p class="eyebrow">Additive manufacturing</p>
-            <h1>3D printing that starts with the part, not the machine.</h1>
-            <p class="lead">
-                From one-off brackets to functional prototypes, the service focuses on correct fit, clear purpose,
-                and a result that works in the real world.
-            </p>
-            <div class="actions">
-                <a class="button primary" href="contact.html">Request a print</a>
-                <a class="button secondary" href="cadDesign.html">Need a model first?</a>
-            </div>
+  <div class="navstage">
+    <div class="navstack">
+      <div class="layer layer-blue"></div>
+      <div class="layer layer-white"></div>
+      <nav class="navbar">
+        <a class="nav-link" href="index.html" data-page="home">
+          <svg viewBox="0 0 24 24"><path d="M4 11.5 12 4l8 7.5"/><path d="M6 10v9a1 1 0 0 0 1 1h4v-6h2v6h4a1 1 0 0 0 1-1v-9"/></svg>
+          <span class="label">Home</span>
+        </a>
+        <a class="nav-link" href="cadDesign.html" data-page="cad">
+          <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 9h16M9 4v16"/></svg>
+          <span class="label">CAD</span>
+        </a>
+        <a class="nav-link" href="3dPrinting.html" data-page="printing">
+          <svg viewBox="0 0 24 24"><path d="M12 2v20M4 8l8-4 8 4M4 8v8l8 4 8-4V8M4 8l8 4 8-4"/></svg>
+          <span class="label">3D-Druck</span>
+        </a>
+        <a class="nav-link" href="repairs.html" data-page="repairs">
+          <svg viewBox="0 0 24 24"><path d="M14.7 6.3a3 3 0 1 0-4.2 4.2L4 17l3 3 6.5-6.5a3 3 0 1 0 4.2-4.2l-1.5-1.5-1.5 1.5z"/></svg>
+          <span class="label">Reparatur</span>
+        </a>
+        <a class="nav-link" href="programming.html" data-page="programming">
+          <svg viewBox="0 0 24 24"><path d="m9 8-4 4 4 4M15 8l4 4-4 4"/></svg>
+          <span class="label">Code</span>
+        </a>
+        <a class="nav-link" href="consulting.html" data-page="consulting">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>
+          <span class="label">Beratung</span>
+        </a>
+        <a class="nav-link" href="projects.html" data-page="projects">
+          <svg viewBox="0 0 24 24"><rect x="3" y="4" width="7" height="7" rx="1"/><rect x="14" y="4" width="7" height="7" rx="1"/><rect x="3" y="13" width="7" height="7" rx="1"/><rect x="14" y="13" width="7" height="7" rx="1"/></svg>
+          <span class="label">Projekte</span>
+        </a>
+        <a class="nav-cta-orb" href="contact.html" data-tip="Kontakt">
+          <svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <header class="wrap page-hero">
+    <span class="eyebrow glass pop">Leistung 02</span>
+    <h1>3D-Druck</h1>
+    <p class="lead">Individuelle Teile — Ersatz-Clips, Halterungen, Abdeckungen und technische Komponenten, gedruckt mit Fokus auf Passform und Haltbarkeit.</p>
+  </header>
+
+  <main>
+    <section class="wrap section tight">
+      <div class="feature glass pop reveal">
+        <div class="feature-media">
+          <img src="data/img/IMG_4523.jpeg" alt="3D-gedruckte Baugruppe von Jon Systems">
         </div>
-
-        <div class="hero-card panel reveal">
-            <div class="media">
-                <img src="data/img/IMG_4523.jpeg" alt="3D Printed Assembly by Jon Systems" loading="lazy">
-            </div>
-            <div class="stats">
-                <div class="stat">
-                    <strong>Prototype</strong>
-                    <span>Fast iteration and test pieces</span>
-                </div>
-                <div class="stat">
-                    <strong>Functional part</strong>
-                    <span>Built for practical use</span>
-                </div>
-                <div class="stat">
-                    <strong>Support</strong>
-                    <span>CAD help when needed</span>
-                </div>
-            </div>
+        <div class="feature-text">
+          <span class="tag">Beispiel</span>
+          <h3>Funktionale gedruckte Baugruppe.</h3>
+          <p>Individuell gedruckte Teile, gefertigt für Passform, Struktur und praktischen Einsatz.</p>
         </div>
-    </header>
+      </div>
+    </section>
 
-    <main class="page">
-        <section class="section reveal">
-            <div class="section-header">
-                <div>
-                    <p class="eyebrow">Workflow</p>
-                    <h2>Measure, model, print, verify.</h2>
-                </div>
-                <p>
-                    The print process is more reliable when the design is checked first. That is why the service can
-                    include CAD support before anything is manufactured.
-                </p>
-            </div>
+    <section class="wrap section tight">
+      <div class="grid cols-2">
+        <div class="card glass pop reveal">
+          <div class="icon">→</div>
+          <h3>Individuelle Teile</h3>
+          <p>Ersatz-Clips, Halterungen, Abdeckungen und technische Komponenten nach Maß.</p>
+        </div>
+        <div class="card glass pop reveal">
+          <div class="icon">→</div>
+          <h3>Testobjekte & Revisionen</h3>
+          <p>Vor der finalen Version werden Testdrucke und Überarbeitungen durchgeführt.</p>
+        </div>
+      </div>
+    </section>
 
-            <div class="grid cards">
-                <article class="card">
-                    <h3>Custom parts</h3>
-                    <p>Replacement clips, mounts, holders, covers, and technical components.</p>
-                </article>
-                <article class="card">
-                    <h3>Prototype parts</h3>
-                    <p>Test objects and revisions before a final version is produced.</p>
-                </article>
-                <article class="card">
-                    <h3>Design support</h3>
-                    <p>CAD preparation for printing when the existing model is incomplete or unsuitable.</p>
-                </article>
-            </div>
-        </section>
-    </main>
+    <section class="wrap section">
+      <div class="feature reverse glass pop reveal">
+        <div class="feature-media">
+          <img src="data/img/Infill%20Fluegel.png" alt="Infill-Struktur eines 3D-Drucks">
+        </div>
+        <div class="feature-text">
+          <span class="tag">Workflow</span>
+          <h3>Design zuerst geprüft, dann gedruckt.</h3>
+          <p>Der Druckprozess ist zuverlässiger, wenn das Design vorher geprüft wird. Deshalb kann der Service CAD-Unterstützung vor der Fertigung einschließen — etwa wenn das bestehende Modell unvollständig oder ungeeignet ist.</p>
+        </div>
+      </div>
+    </section>
 
-    <footer class="footer">
-        3D printing is most effective when it is matched to the use case before production starts.
-    </footer>
+    <section class="wrap section">
+      <div class="section-head">
+        <span class="kicker">Ergebnis</span>
+        <h2>Stabil, passgenau, einsatzbereit.</h2>
+      </div>
+      <div class="result-panel glass pop reveal">
+        <h3>Von der Iteration zum finalen Teil</h3>
+        <p>Print-Einstellungen und Nachbearbeitung sorgen dafür, dass das fertige Teil auch langfristig maßhaltig bleibt.</p>
+      </div>
+    </section>
 
-    <script src="navbar.js"></script>
-    <script src="script.js"></script>
+    <section class="wrap section">
+      <div class="cta-panel glass pop reveal">
+        <h2>Teil kaputt oder fehlt?</h2>
+        <p>Foto und kurze Beschreibung genügen für eine erste Einschätzung.</p>
+        <div class="actions">
+          <a class="button primary" href="contact.html">Anfrage senden</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span>© 2026 Jon Systems</span>
+    <span><a href="impressum.html">Impressum</a></span>
+  </footer>
+
+  <script src="site.js"></script>
 </body>
-
 </html>
